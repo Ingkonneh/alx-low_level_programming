@@ -14,6 +14,7 @@ int main(void)
 	int i, sum, n;
 
 	sum = 0;
+
 	srand(time(NULL));
 
 	for (i = 0; i < 100; i++)
@@ -32,3 +33,4 @@ int main(void)
 
 	return (0);
 }
+
