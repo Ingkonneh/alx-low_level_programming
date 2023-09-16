@@ -12,7 +12,6 @@ int i = 0;
 char *str, *sep = "";
 va_list list;
 va_start(list, format);
-
 if (format)
 {
 while (format[i])
